@@ -1,0 +1,26 @@
+{
+  "name": "abilityjs",
+  "version": "1.0.0",
+  "description": "Simple routed-based ACL component for express.js base on Ability (https://github.com/scottkf/ability-js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damianfabian/abilityjs.git"
+  },
+  "keywords": [
+    "ability",
+    "acl",
+    "authenticate",
+    "roles",
+    "permissions"
+  ],
+  "author": "Fabian Jaramillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damianfabian/abilityjs/issues"
+  },
+  "homepage": "https://github.com/damianfabian/abilityjs#readme"
+}
