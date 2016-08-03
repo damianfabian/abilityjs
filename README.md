@@ -105,7 +105,9 @@ On the routes, you may specify one of 4 options, 'read', 'write', 'delete', or '
 
 ## Todo:
 
-- Thinking on that
+- Add logger functions
+- Add options to map the container object for user model
+ 
 
 
 NOTE: I just take the old source and make some changes to used in my project with express v4, I'm plannig to add more feautures on the route, but for now I'm happy to be available to use this simple and awesome library. Hope you find this usefull.

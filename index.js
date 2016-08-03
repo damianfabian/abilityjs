@@ -38,7 +38,7 @@ authorize = function(action, target, role) {
 		// everything is explicitly defined or the user is not using everyauth
 		value = ability.can_ability(action, target);		
 	}
-	
+	console.log(value);
 	return value;
  	    	  
 }
@@ -47,8 +47,7 @@ authorize = function(action, target, role) {
 authorizeHandler = function(req, res, next) {
 	if(authorize())
 		next()
-		
-	if(ability.redirect)
+	else if(ability.redirect)
 		res.redirect(ability.redirect_to + "?message=" + ability.redirect_message);
 	else{
 		res.status(401).send(ability.redirect_message);

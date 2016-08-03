@@ -1,6 +1,6 @@
 {
   "name": "abilityjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple routed-based ACL component for express.js base on Ability (https://github.com/scottkf/ability-js)",
   "main": "index.js",
   "scripts": {
